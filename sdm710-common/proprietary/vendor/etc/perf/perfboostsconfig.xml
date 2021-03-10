@@ -28,8 +28,8 @@
         <!-- Type="1", main launch boost of 2sec -->
         <Config
             Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="sdm710"
-            Resources="0x40C00000, 0x4, 0x40C20000, 0x28, 0x40C1C000, 0x32, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1747,
-                       0x40800100, 1516" />
+            Resources="0x40C20000, 0x28, 0x40C1C000, 0x32, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
+                       0x40800100, 0xFFF, 0x40400000, 0x1" />
     <!--app resume boost-->
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
@@ -41,7 +41,7 @@
 
         <Config
             Id="0x00001082" Type="1" Enable="true" Timeout="400" Target="sdm710"
-            Resources="0x40C00000, 0x4, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1747,
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1747,
                        0x40800100, 1516, 0x40400000, 0x1, 0x42804000, 0x2" />
 
     <!--app lauch boost (disabling packing)-->
@@ -121,9 +121,11 @@
         <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- POWER COLLAPSE resource opcode, value-->
         <Config
             Id="0x00001083" Enable="true" Timeout="400" Target="sdm710"
-            Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 2208, 0x40800100, 1708" />
+             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 2208, 0x40800100, 1708,
+                      0x40400000, 0x1" />
 
     <!--Vertical Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -131,11 +133,12 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- GPU MIN-FREQUENCY resource opcode,value-->
-
+        <!-- POWER COLLAPSE resource opcode, value-->
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="sdm710"
-            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2" />
+            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
+                      0x40400000, 0x1" />
 
     <!--Horizontal Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -143,11 +146,12 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- GPU MIN-FREQUENCY resource opcode,value-->
-
+        <!-- POWER COLLAPSE resource opcode, value-->
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="sdm710"
-            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2" />
+            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
+                       0x40400000, 0x1" />
 
     <!--Pre-Fling boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -155,11 +159,12 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- GPU MIN-FREQUENCY resource opcode,value-->
-
+        <!-- POWER COLLAPSE resource opcode, value-->
         <!-- Type="4", Pre-Fling boost -->
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm710"
-            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2" />
+            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2
+                       0x40400000, 0x1" />
 
     <!--MTP boost-->
         <!-- SCHEDBOOST resource opcode, value-->
