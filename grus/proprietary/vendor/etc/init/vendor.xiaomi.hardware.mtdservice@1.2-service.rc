@@ -4,3 +4,7 @@ on post-fs-data
 service vendor.mtdservice-1-2 /vendor/bin/mtd@1.2
     class hal
     group system drmrpc
+    disabled
+
+on property:ro.boot.product.hardware.sku=grus_global
+    start vendor.mtdservice-1-2
