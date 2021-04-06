@@ -277,6 +277,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sirius/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
 
 PRODUCT_PACKAGES += \
-    liblbs_core \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340
+    liblbs_core
