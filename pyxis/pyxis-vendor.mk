@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/system/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/xiaomi/pyxis/proprietary/system/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/xiaomi/pyxis/proprietary/system/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/pyxis/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/xiaomi/pyxis/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/xiaomi/pyxis/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
@@ -49,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/etc/camera/visidon_clearshot_params_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/visidon_clearshot_params_algoup.xml \
     vendor/xiaomi/pyxis/proprietary/vendor/etc/dsi_ss_ea8076_fhd_cmd_display_f3b_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_ss_ea8076_fhd_cmd_display_f3b_mi.xml \
     vendor/xiaomi/pyxis/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
-    vendor/xiaomi/pyxis/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/pyxis/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/xiaomi/pyxis/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/xiaomi/pyxis/proprietary/vendor/etc/init/vendor.qti.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.0-service.rc \
@@ -184,13 +182,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/camera/titan17x_usecases.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/titan17x_usecases.bin \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/hw/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/hw/audio.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm710.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libMegviiFacepp-0.5.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMegviiFacepp-0.5.2.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
@@ -222,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_scene.so \
@@ -294,14 +289,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0-service.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/hw/audio.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm710.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/hw/fingerprint.goodix_fod.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_fod.sdm710.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libVDClearShot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDClearShot.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libVDDualCameraClearShot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDDualCameraClearShot.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDSuperPhotoAPI.so \
@@ -328,7 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioroute_ext.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
@@ -375,7 +366,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
