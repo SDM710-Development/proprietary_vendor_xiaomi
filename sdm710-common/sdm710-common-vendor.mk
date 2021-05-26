@@ -762,4 +762,5 @@ PRODUCT_PACKAGES += \
     ims \
     WfdCommon \
     audiosphere \
-    vendor.qti.hardware.alarm-V1.0-java
+    vendor.qti.hardware.alarm-V1.0-java \
+    android.hardware.neuralnetworks@1.3-service-qti
