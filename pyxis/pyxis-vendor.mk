@@ -344,7 +344,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnanopb.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndmonitor.so \
@@ -433,7 +432,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
-    vendor/xiaomi/pyxis/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/xiaomi/pyxis/proprietary/vendor/lib64/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndmonitor.so \
