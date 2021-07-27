@@ -785,4 +785,5 @@ PRODUCT_PACKAGES += \
     audiosphere \
     vendor.qti.hardware.alarm-V1.0-java \
     android.hardware.neuralnetworks@1.3-service-qti \
+    manifest_vendor.xiaomi.hardware.mlipay \
     vendor.qti.gnss@4.0-service
